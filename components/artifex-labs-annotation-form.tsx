@@ -9,7 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { motion } from "framer-motion";
 import { CheckCircle, XCircle, HelpCircle, Flag, Calculator, Save } from 'lucide-react';
-//add send
+//add send later 
 export default function ArtifexLabsAnnotationForm() {
   const [formData, setFormData] = useState({
     company: '',
