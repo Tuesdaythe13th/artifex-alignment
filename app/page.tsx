@@ -10,6 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { motion } from "framer-motion";
 import { CheckCircle, XCircle, HelpCircle, Flag, Calculator, Save } from 'lucide-react';
 //import send when ready
+// //  const Send = ... ; // Placeholder for future development
 export default function ArtifexLabsAnnotationForm() {
   const [formData, setFormData] = useState({
     company: '',
