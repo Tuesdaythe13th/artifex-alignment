@@ -7,7 +7,7 @@ export interface TextareaProps
     placeholder?: string;
     rows?: number;
   }
-// @ts-ignore
+// @ts-expect-error // This is a workaround for a Next.js issue with forwardRef
 const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
   ({ className, placeholder, rows, ...props }, ref) => {
     return (
