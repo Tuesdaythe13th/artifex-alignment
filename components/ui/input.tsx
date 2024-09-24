@@ -7,7 +7,7 @@ export interface InputProps
     placeholder?: string; 
     // ... other properties you might use
   }
-// @ts-expect-error // This is a workaround for a Next.js issue with forwardRef
+
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
   //add custom property
   ({ className, type, placeholder, ...props }, ref) => {
